@@ -194,11 +194,11 @@
 			}
 			var slidesShowing = getNumberSlidesShowing();
 			// make modifications to the viewport (.bx-viewport)
-			slider.viewport.css({
-				width: '100%',
-				overflow: 'hidden',
-				position: 'relative'
-			});
+			//slider.viewport.css({
+				//width: '100%',
+				//overflow: 'hidden',
+				//position: 'relative'
+			//});
 			slider.viewport.parent().css({
 				maxWidth: getViewportMaxWidth()
 			});
